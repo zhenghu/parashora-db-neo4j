@@ -1,0 +1,25 @@
+CREATE (two_11:Action {tag:'2.11', description:'Identification of corporate sustainable supplier management strategy'})
+CREATE (three_7:Action {tag:'3.7',description:'Identification of the requirements of supplier sustainable evaluation'})
+CREATE (four_2:Action {tag:'4.2',description:'Evaluation of suppliers'})
+CREATE (five_6:Action {tag:'5.6',description:'Authorization of supply'})
+CREATE (six_5:Action {tag:'6.5',description:'Frequent review of suppliers sustainable performance'})
+CREATE (two_10:Action {tag:'2.10',description:'Identification of project s requirement'})
+CREATE (five_7:Action {tag:'5.7',description:'Selection of supplier from authorization list'})
+CREATE (six_6:Action {tag:'6.6',description:'Translation of the requirement to suppliers'})
+CREATE (seven_3:Action {tag:'7.3',description:'Collaboration with suppliers to ensure the achievement'})
+CREATE (ten_6:Action {tag:'10.6',description:'Sample test data acceptance'})
+CREATE (eleven_4:Action {tag:'11.4',description:'Final supply contract'})
+
+CREATE 
+   (two_10)-[:NEXT]->(two_11),
+   (two_11)-[:NEXT]->(three_7),
+   (three_7)-[:NEXT]->(four_2),
+   (four_2)-[:NEXT]->(five_6),
+   (five_6)-[:NEXT]->(five_7),
+   (five_6)-[:NEXT]->(six_5),
+   (two_10)-[:NEXT]->(five_7),
+   (five_7)-[:NEXT]->(six_6),
+   (six_6)-[:NEXT]->(seven_3),
+   (seven_3)-[:NEXT]->(ten_6),
+   (ten_6)-[:NEXT]->(eleven_4)
+        

@@ -1,0 +1,64 @@
+
+CREATE (one_2:Action {tag:'1.2', description:'Identification of product-oriented legislative requirements'})
+CREATE (one_3:Action {tag:'1.3', description:'Identification of process-oriented legislative requirements'})
+CREATE (one_4:Action {tag:'1.4', description:'Draw up the product cost estimation map'})
+CREATE (one_6:Action {tag:'1.6', description:'End of life treatment Contract'})
+
+CREATE (two_3:Action {tag:'2.3', description:'Identification of product’s PCR'})
+CREATE (two_5:Action {tag:'2.5', description:'Identification of eco label system and related product criteria'})
+CREATE (two_6:Action {tag:'2.6', description:'Identification of actual collecting and end of life treatment manner'})
+CREATE (two_7:Action {tag:'2.7', description:'Identification of recyclability improvement target'})
+CREATE (two_8:Action {tag:'2.8', description:'Identification of targeted parts for disassembly'})
+CREATE (two_9:Action {tag:'2.9', description:'Reusable check for product components'})
+CREATE (two_10:Action {tag:'2.10',description:'Identification of project requirement'})
+CREATE (two_11:Action {tag:'2.11', description:'Identification of corporate sustainable supplier management strategy'})
+CREATE (two_13:Action {tag:'2.13', description:'Selection or Innovation of best available technology or others'})
+CREATE (two_15:Action {tag:'2.15', description:'Product life cycle cost profiles'})
+CREATE (two_17:Action {tag:'2.17', description:'Identification of process/organization environmental criteria for labelling'})
+CREATE (two_18:Action {tag:'2.18', description:'Marketing related check for reverse and closed-loop supply chain'})
+
+CREATE (three_4:Action {tag:'3.4', description:'Identification of product-component end of life treatment scenarios'})
+CREATE (three_5:Action {tag:'3.5', description:'Evaluation of actual product disassembly sequence'})
+CREATE (three_6:Action {tag:'3.6', description:'Identification of targeted parts for re-manufacturing'})
+CREATE (three_7:Action {tag:'3.7',description:'Identification of the requirements of supplier sustainable evaluation'})
+CREATE (three_10:Action {tag:'3.10', description:'Identification of actual recyclability of product'})
+CREATE (three_12:Action {tag:'3.12', description:'Equivalence measure of product life cycle cost profiles'})
+CREATE (three_14:Action {tag:'3.14', description:'Identification of targeted components/products and EoL alternatives scenarios by marketing consideration'})
+CREATE (three_15:Action {tag:'3.15', description:'Corporate stock  and logistic network management'})
+
+CREATE (four_2:Action {tag:'4.2',description:'Evaluation of suppliers'})
+CREATE (four_5:Action {tag:'4.5', description:'Product life cycle cost profiles estimation for new feasible technical options'})
+CREATE (four_8:Action {tag:'4.8', description:'Reverse and closed-loop network design (Location or reverse center and transport manners)'})
+
+CREATE (five_1:Action {tag:'5.1', description:'Calculation of product recyclability rate'})
+CREATE (five_6:Action {tag:'5.6',description:'Authorization of supply'})
+CREATE (five_7:Action {tag:'5.7',description:'Selection of supplier from authorization list'})
+CREATE (five_11:Action {tag:'5.11', description:'Equivalence measure of each option life cycle cost profile'})
+CREATE (five_13:Action {tag:'5.13', description:'Disassembly and re-manufacturing planning'})
+
+CREATE (six_2:Action {tag:'6.2', description:'Identification of the recyclability potential of material'})
+CREATE (six_6:Action {tag:'6.6',description:'Translation of the requirement to suppliers'})
+CREATE (six_9:Action {tag:'6.9', description:'Ranking of all option life cycle cost profiles'})
+CREATE (six_12:Action {tag:'6.12', description:'Recycled input acquisition management'})
+
+CREATE (seven_3:Action {tag:'7.3',description:'Collaboration with suppliers to ensure the achievement'})
+
+CREATE (eight_1:Action {tag:'8.1', description:'Identification of specification of product disassembly improvement'})
+CREATE (eight_2:Action {tag:'8.2', description:'Identification of specification of product recycling improvement'})
+CREATE (eight_6:Action {tag:'8.6', description:'Identification of specification of product re-manufacturing improvement'})
+CREATE (eight_7:Action {tag:'8.7', description:'Identification of specification to extend the product life time'})
+
+CREATE (night_1:Action {tag:'9.1', description:'Alternative product recycling/assembly performance improvement'})
+CREATE (night_4:Action {tag:'9.4', description:'Requirement from designer for specific treatment'})
+CREATE (night_5:Action {tag:'9.5', description:'Alternative improvement for re-manufacturing process'})
+CREATE (night_6:Action {tag:'9.6', description:'Alternative improvement for extending the life time of targeted components'})
+
+CREATE (ten_3:Action {tag:'10.3', description:'New treatment contract'})
+CREATE (ten_4:Action {tag:'10.4', description:'Generation and evaluation of improved product disassembly sequence and process'})
+CREATE (ten_5:Action {tag:'10.5', description:'The re-manufacturing improved process '})
+CREATE (ten_6:Action {tag:'10.6',description:'Sample test data acceptance'})
+
+CREATE (eleven_4:Action {tag:'11.4',description:'Final supply contract'})
+CREATE (eleven_6:Action {tag:'11.6', description:'Identification of improved collecting and end of life treatment manner'})
+
+   

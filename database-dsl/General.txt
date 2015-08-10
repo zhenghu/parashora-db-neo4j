@@ -1,0 +1,422 @@
+CREATE (zero_01:Objective {tag:'0.1', description:'Design for process-oriented life cycle cost (Cost drive)'})
+CREATE (zero_02:Objective {tag:'0.2', description:'Process/organization environmental performance communication'})
+CREATE (zero_03:Objective {tag:'0.3', description:'Process-oriented Life cycle cost analysis for environmental improvement (Technique drive)'})
+CREATE (zero_04:Objective {tag:'0.4', description:'Actual process-oriented life cycle cost analysis'})
+CREATE (zero_05:Objective {tag:'0.5', description:'Process-oriented legislative compliance'})
+CREATE (zero_06:Objective {tag:'0.6', description:'Process-oriented Life cycle streamlined environmental performance calculation'})
+CREATE (zero_07:Objective {tag:'0.7', description:'Process-oriented Life cycle environmental performance Evaluation'})
+CREATE (zero_08:Objective {tag:'0.8', description:'Process-oriented Life cycle environmental performance calculation'})
+CREATE (zero_09:Objective {tag:'0.9', description:'Best available technologies and other technologies'})
+CREATE (zero_10:Objective {tag:'0.10', description:'Process-oriented environmental management system (Including the process-oriented LCA improvement)'})
+CREATE (zero_11:Objective {tag:'0.11', description:'Logistic network and Stock management'})
+CREATE (zero_12:Objective {tag:'0.12', description:'Recycled material acquisition'})
+CREATE (zero_13:Objective {tag:'0.13', description:'Reverse and closed-loop supply chain performance evaluation'})
+CREATE (zero_14:Objective {tag:'0.14', description:'Reverse and closed-loop supply chain management'})
+CREATE (zero_15:Objective {tag:'0.15', description:'Green Supplier management'})
+CREATE (zero_16:Objective {tag:'0.16', description:'Product based supply chain management'})
+CREATE (zero_17:Objective {tag:'0.17', description:'Design of lifetime'})
+CREATE (zero_18:Objective {tag:'0.18', description:'Signature of the contract with end of supplier for waste collection and treatment'})
+CREATE (zero_20:Objective {tag:'0.20', description:'Collaboration with recycler to improve the recycling performance'})
+CREATE (zero_21:Objective {tag:'0.21', description:'DDesign for re-manufacturing'})
+CREATE (zero_22:Objective {tag:'0.22', description:'Generation of improved end of life instruction'})
+CREATE (zero_23:Objective {tag:'0.23', description:'Generation of end of life instruction'})
+CREATE (zero_24:Objective {tag:'0.24', description:'Design for disassembly'})
+CREATE (zero_25:Objective {tag:'0.25', description:'Design for recyclability'})
+CREATE (zero_26:Objective {tag:'0.26', description:'Recyclability calculation'})
+CREATE (zero_27:Objective {tag:'0.27', description:'Products streamlined life cycle environmental performance calculation'})
+CREATE (zero_28:Objective {tag:'0.28', description:'Product’s life cycle environmental performance calculation (Quantitative)'})
+CREATE (zero_29:Objective {tag:'0.29', description:'Product’s life cycle environmental performance evaluation'})
+CREATE (zero_30:Objective {tag:'0.30', description:'Product’s life cycle environmental performance improvement'})
+CREATE (zero_31:Objective {tag:'0.31', description:'Environmental guidelines exploration and identification'})
+CREATE (zero_32:Objective {tag:'0.32', description:'Identification of product’s life cycle environmental nomenclature by PCR'})
+CREATE (zero_33:Objective {tag:'0.33', description:'Product’s life cycle environmental performance calculation (Qualitative/Semi-quantitative)'})
+CREATE (zero_34:Objective {tag:'0.34', description:'Product environmental items prioritization'})
+CREATE (zero_35:Objective {tag:'0.35', description:'Product life cycle environmental performance calculation (by check-list)'})
+CREATE (zero_36:Objective {tag:'0.36', description:'Product life cycle environmental performance improvement by check-list'})
+CREATE (zero_37:Objective {tag:'0.37', description:'Product life cycle environmental performance declaration'})
+CREATE (zero_38:Objective {tag:'0.38', description:'Product streamlined environmental performance communication'})
+CREATE (zero_39:Objective {tag:'0.39', description:'Product’s environmental performance communication by eco label'})
+CREATE (zero_40:Objective {tag:'0.40', description:'Diagram validation the environmental improvement comparing with reference'})
+CREATE (zero_41:Objective {tag:'0.41', description:'Diagram comparison of environmental performance with reference'})
+CREATE (zero_42:Objective {tag:'0.42', description:'Products environmental legislation compliance'})
+CREATE (zero_43:Objective {tag:'0.43', description:'Design for product life cycle cost (Cost drive)'})
+CREATE (zero_44:Objective {tag:'0.44', description:'Product Life cycle cost analysis for environmental improvement (Technique drive)'})
+CREATE (zero_45:Objective {tag:'0.45', description:'Actual product life cycle cost analysis'})
+
+
+
+CREATE (one_1:Action {tag:'1.1', objective:'0.30',description:'Identification of the environmental guidelines'})
+CREATE (one_2:Action {tag:'1.2', description:'Identification of product-oriented legislative requirements'})
+CREATE (one_3:Action {tag:'1.3', description:'Identification of process-oriented legislative requirements'})
+CREATE (one_4:Action {tag:'1.4', description:'Draw up the product cost estimation map'})
+CREATE (one_5:Action {tag:'1.5', description:'Draw up the process-oriented cost estimation map'})
+CREATE (one_6:Action {tag:'1.6', description:'End of life treatment Contract'})
+
+CREATE (two_1:Action {tag:'2.1', description:'Identification of streamlined analysis scope and functional unit'})
+CREATE (two_2:Action {tag:'2.2', description:'Identification of analysis scope and functional unit'})
+CREATE (two_3:Action {tag:'2.3', description:'Identification of product’s PCR'})
+CREATE (two_4:Action {tag:'2.4', description:'Identification of product-oriented check-list'})
+CREATE (two_5:Action {tag:'2.5', description:'Identification of eco label system and related product criteria'})
+CREATE (two_6:Action {tag:'2.6', description:'Identification of actual collecting and end of life treatment manner'})
+CREATE (two_7:Action {tag:'2.7', description:'Identification of recyclability improvement target'})
+CREATE (two_8:Action {tag:'2.8', description:'Identification of targeted parts for disassembly'})
+CREATE (two_9:Action {tag:'2.9', description:'Reusable check for product components'})
+CREATE (two_10:Action {tag:'2.10',description:'Identification of project requirement'})
+CREATE (two_11:Action {tag:'2.11', description:'Identification of corporate sustainable supplier management strategy'})
+CREATE (two_12:Action {tag:'2.12', description:'Identification of analysis scope'})
+CREATE (two_13:Action {tag:'2.13', description:'Selection or Innovation of best available technology or others'})
+CREATE (two_14:Action {tag:'2.14', description:'Identification of streamlined analysis scope and functional unit'})
+CREATE (two_15:Action {tag:'2.15', description:'Product life cycle cost profiles'})
+CREATE (two_16:Action {tag:'2.16', description:'process-oriented life cycle cost profiles'})
+CREATE (two_17:Action {tag:'2.17', description:'Identification of process/organization environmental criteria for labelling'})
+CREATE (two_18:Action {tag:'2.18', description:'Marketing related check for reverse and closed-loop supply chain'})
+
+CREATE (three_1:Action {tag:'3.1', description:'Collection of the activity data corresponding with streamlined objective'})
+CREATE (three_2:Action {tag:'3.2', description:'Identification of product’s life cycle environmental nomenclature by designer'})
+CREATE (three_4:Action {tag:'3.4', description:'Identification of product-component end of life treatment scenarios'})
+CREATE (three_5:Action {tag:'3.5', description:'Evaluation of actual product disassembly sequence'})
+CREATE (three_6:Action {tag:'3.6', description:'Identification of targeted parts for re-manufacturing'})
+CREATE (three_7:Action {tag:'3.7',description:'Identification of the requirements of supplier sustainable evaluation'})
+CREATE (three_8:Action {tag:'3.8', description:'Environmental review for each process and post planning'})
+CREATE (three_9:Action {tag:'3.9', description:'Collection of the activity data corresponding with streamlined objective of process'})
+CREATE (three_10:Action {tag:'3.10', description:'Identification of actual recyclability of product'})
+CREATE (three_11:Action {tag:'3.11', description:'Equivalence measure of process-oriented life cycle cost profiles'})
+CREATE (three_12:Action {tag:'3.12', description:'Equivalence measure of product life cycle cost profiles'})
+CREATE (three_13:Action {tag:'3.13', description:'Identification of streamlined environmental impacts and related product criteria'})
+CREATE (three_14:Action {tag:'3.14', description:'Identification of targeted components/products and EoL alternatives scenarios by marketing consideration'})
+CREATE (three_15:Action {tag:'3.15', description:'Corporate stock  and logistic network management'})
+
+CREATE (four_1:Action {tag:'4.1', description:'Selection of marched pre-defined modules and methods in LCA software'})
+CREATE (four_2:Action {tag:'4.2',description:'Evaluation of suppliers'})
+CREATE (four_3:Action {tag:'4.3', description:'Draw up a list of possible actions to improve the actual process'})
+CREATE (four_4:Action {tag:'4.4', description:'Selection of marched pre-defined modules and methods in LCA software (for process)'})
+CREATE (four_5:Action {tag:'4.5', description:'Product life cycle cost profiles estimation for new feasible technical options'})
+CREATE (four_6:Action {tag:'4.6', description:'Process-oriented life cycle cost profiles estimation for new feasible technical options'})
+CREATE (four_7:Action {tag:'4.7', description:'Generation of end of life instruction'})
+CREATE (four_8:Action {tag:'4.8', description:'Reverse and closed-loop network design (Location or reverse center and transport manners)'})
+
+CREATE (five_1:Action {tag:'5.1', description:'Calculation of product recyclability rate'})
+CREATE (five_2:Action {tag:'5.2', description:'Calculation the LCA streamlined environmental indicator'})
+CREATE (five_3:Action {tag:'5.3', description:'Calculation of product’s life cycle environmental performances'})
+CREATE (five_4:Action {tag:'5.4', description:'Qualitative/Semi-quantitative  calculation of product’s life cycle environmental performances'})
+CREATE (five_5:Action {tag:'5.5', description:'Product’s life cycle environmental performances calculation (by Check-list)'})
+CREATE (five_6:Action {tag:'5.6',description:'Authorization of supply'})
+CREATE (five_7:Action {tag:'5.7',description:'Selection of supplier from authorization list'})
+CREATE (five_8:Action {tag:'5.8', description:'Priorities analysis of all possible actions'})
+CREATE (five_9:Action {tag:'5.9', description:'Calculation of process’s life cycle environmental performances'})
+CREATE (five_10:Action {tag:'5.10', description:'Calculation the process-oriented LCA streamlined environmental indicator'})
+CREATE (five_11:Action {tag:'5.11', description:'Equivalence measure of each option life cycle cost profile'})
+CREATE (five_12:Action {tag:'5.12', description:'Equivalence measure of each process-oriented option life cycle cost profile'})
+CREATE (five_13:Action {tag:'5.13', description:'Disassembly and re-manufacturing planning'})
+
+CREATE (six_1:Action {tag:'6.1', description:'Presentation of product environmental performance by diagram graph'})
+CREATE (six_2:Action {tag:'6.2', description:'Identification of the recyclability potential of material'})
+CREATE (six_4:Action {tag:'6.4', description:'Identification of significant impact contribution of product’s life cycle items'})
+CREATE (six_5:Action {tag:'6.5',description:'Frequent review of suppliers sustainable performance'})
+CREATE (six_6:Action {tag:'6.6',description:'Translation of the requirement to suppliers'})
+CREATE (six_7:Action {tag:'6.7', description:'Establishment of the process-oriented environmental objectives and targets'})
+CREATE (six_8:Action {tag:'6.8', description:'Identification of significant impact contribution of process’s life cycle items'})
+CREATE (six_9:Action {tag:'6.9', description:'Ranking of all option life cycle cost profiles'})
+CREATE (six_10:Action {tag:'6.10', description:'Ranking of all process-oriented option life cycle cost profiles'})
+CREATE (six_11:Action {tag:'6.11', description:'Reverse and closed-loop supply chain performance evaluation'})
+CREATE (six_12:Action {tag:'6.12', description:'Recycled input acquisition management'})
+
+CREATE (seven_1:Action {tag:'7.1', description:'Documentation of evaluation results and improvement recommendation'})
+CREATE (seven_2:Action {tag:'7.2', description:'Identification of the priority of environmental improvement topics'})
+CREATE (seven_3:Action {tag:'7.3',description:'Collaboration with suppliers to ensure the achievement'})
+CREATE (seven_4:Action {tag:'7.4', description:'Documentation of process life cycle evaluation results and improvement recommendation'})
+CREATE (seven_5:Action {tag:'7.5', description:'Sensitivity and risk analysis of the correspondent elements of life cycle cost profiles'})
+CREATE (seven_6:Action {tag:'7.6', description:'Sensitivity and risk analysis of the correspondent elements of process-oriented life cycle cost profiles'})
+
+CREATE (eight_1:Action {tag:'8.1', description:'Identification of specification of product disassembly improvement'})
+CREATE (eight_2:Action {tag:'8.2', description:'Identification of specification of product recycling improvement'})
+CREATE (eight_3:Action {tag:'8.3', description:'Identification of product environmental improvement specification'})
+CREATE (eight_4:Action {tag:'8.4', description:'Identification of the targets of eco-design (Product, component, function, etc.)'})
+CREATE (eight_5:Action {tag:'8.5', description:'Identification of product environmental improvement specification (by check-list)'})
+CREATE (eight_6:Action {tag:'8.6', description:'Identification of specification of product re-manufacturing improvement'})
+CREATE (eight_7:Action {tag:'8.7', description:'Identification of specification to extend the product life time'})
+CREATE (eight_8:Action {tag:'8.8', description:'IIdentification of environmental chart and action planning'})
+CREATE (eight_9:Action {tag:'8.9', description:'The specification of design for life cycle cost'})
+CREATE (eight_10:Action {tag:'8.10', description:'The specification of design for process-oriented life cycle cost'})
+
+CREATE (night_1:Action {tag:'9.1', description:'Alternative product recycling/assembly performance improvement'})
+CREATE (night_2:Action {tag:'9.2', description:'Alternative eco-design/process improvement'})
+CREATE (night_3:Action {tag:'9.3', description:'Alternative eco-design / process improvement (by check-list)'})
+CREATE (night_4:Action {tag:'9.4', description:'Requirement from designer for specific treatment'})
+CREATE (night_5:Action {tag:'9.5', description:'Alternative improvement for re-manufacturing process'})
+CREATE (night_6:Action {tag:'9.6', description:'Alternative improvement for extending the life time of targeted components'})
+CREATE (night_7:Action {tag:'9.7', description:'The process situation follow-up'})
+CREATE (night_8:Action {tag:'9.8', description:'Alternative design for process-oriented life cycle cost'})
+
+CREATE (ten_1:Action {tag:'10.1', description:'Identification of improved product-component end of life treatment scenarios'})
+CREATE (ten_2:Action {tag:'10.2', description:'Formulation of improved product’s life cycle environmental nomenclature by designer'})
+CREATE (ten_3:Action {tag:'10.3', description:'New treatment contract'})
+CREATE (ten_4:Action {tag:'10.4', description:'Generation and evaluation of improved product disassembly sequence and process'})
+CREATE (ten_5:Action {tag:'10.5', description:'The re-manufacturing improved process '})
+CREATE (ten_6:Action {tag:'10.6',description:'Sample test data acceptance'})
+CREATE (ten_7:Action {tag:'10.7', description:'The process-oriented environment records documentation'})
+
+CREATE (eleven_1:Action {tag:'11.1', description:'Calculation of improved product recyclability'})
+CREATE (eleven_2:Action {tag:'11.2', description:'Calculation of improved product’s life cycle environmental performances'})
+CREATE (eleven_3:Action {tag:'11.3', description:'Calculation of improved product’s life cycle environmental performances (by check-list)'})
+CREATE (eleven_4:Action {tag:'11.4',description:'Final supply contract'})
+CREATE (eleven_5:Action {tag:'11.5', description:'Environmental audit and management review'})
+CREATE (eleven_6:Action {tag:'11.6', description:'Identification of improved collecting and end of life treatment manner'})
+CREATE (eleven_7:Action {tag:'11.7', description:'Improved product life cycle cost profiles'})
+CREATE (eleven_8:Action {tag:'11.8', description:'Improved process-oriented life cycle cost profiles'})
+
+CREATE (twelve_1:Action {tag:'12.1', description:'Generation of environmental declaration'})
+CREATE (twelve_2:Action {tag:'12.2', description:'Identification of Improved recycling rate'})
+CREATE (twelve_3:Action {tag:'12.3', description:'Product environmental legislative compliance'})
+CREATE (twelve_4:Action {tag:'12.4', description:'Process-oriented legislative compliance'})
+
+CREATE (thirteen_1:Action {tag:'13.1', description:'Certification and licensing process for environmental declaration'})
+CREATE (thirteen_2:Action {tag:'13.2', description:'Certification and licensing process for eco labelling'})
+CREATE (thirteen_3:Action {tag:'13.3', description:'Presentation of improved product environmental performance by diagram graph'})
+CREATE (thirteen_4:Action {tag:'13.4', description:'Generation of end of life instruction'})
+CREATE (thirteen_5:Action {tag:'13.5', description:'Certification and labelling process for streamlined impacts'})
+CREATE (thirteen_6:Action {tag:'13.6', description:'Certification and labelling process for process/organization environmental performance'})
+
+CREATE (fourteen_1:Action {tag:'14.1', description:'Diagram validation the environmental improvement comparing with reference'})
+
+
+CREATE 
+   (one_1)-[:NEXT]->(two_4),
+   (one_2)-[:NEXT]->(two_4),
+   (one_2)-[:NEXT]->(two_7),
+   (one_2)-[:NEXT]->(two_8),
+   (one_2)-[:NEXT]->(two_10),
+   (one_2)-[:NEXT]->(two_11),
+   (one_2)-[:NEXT]->(two_12),
+   (one_2)-[:NEXT]->(two_13),
+   (one_2)-[:NEXT]->(four_7),
+   (one_3)-[:NEXT]->(two_12),
+   (one_3)-[:NEXT]->(two_13),
+   (one_3)-[:NEXT]->(two_17),
+   (one_4)-[:NEXT]->(two_15),
+   (one_5)-[:NEXT]->(two_16),
+   (one_6)-[:NEXT]->(two_6),
+   (one_6)-[:NEXT]->(four_7),
+   (two_1)-[:NEXT]->(three_1),
+   (two_2)-[:NEXT]->(three_2),
+   (two_3)-[:NEXT]->(one_4),
+   (two_3)-[:NEXT]->(two_2),
+   (two_3)-[:NEXT]->(three_1),
+   (two_3)-[:NEXT]->(three_4),
+   (two_4)-[:NEXT]->(five_5),
+   (two_5)-[:NEXT]->(two_4),
+   (two_5)-[:NEXT]->(two_7),
+   (two_5)-[:NEXT]->(two_8),
+   (two_5)-[:NEXT]->(two_10),
+   (two_5)-[:NEXT]->(two_12),
+   (two_5)-[:NEXT]->(two_13),
+   (two_5)-[:NEXT]->(three_13),
+   (two_5)-[:NEXT]->(four_7),
+   (two_6)-[:NEXT]->(three_10),
+   (two_6)-[:NEXT]->(eight_7),
+   (two_7)-[:NEXT]->(eight_2),
+   (two_8)-[:NEXT]->(three_5),
+   (two_8)-[:NEXT]->(three_6),
+   (two_9)-[:NEXT]->(two_8),
+   (two_9)-[:NEXT]->(three_6),
+   (two_9)-[:NEXT]->(three_14),
+   (two_10)-[:NEXT]->(two_11),
+   (two_10)-[:NEXT]->(five_7),
+   (two_11)-[:NEXT]->(three_7),
+   (two_11)-[:NEXT]->(two_10),
+   (two_12)-[:NEXT]->(three_8),
+   (two_13)-[:NEXT]->(three_14),
+   (two_13)-[:NEXT]->(four_3),
+   (two_13)-[:NEXT]->(eleven_6),
+   (two_14)-[:NEXT]->(three_9),
+   (two_15)-[:NEXT]->(three_12),
+   (two_16)-[:NEXT]->(three_11),
+   (two_17)-[:NEXT]->(two_12),
+   (two_17)-[:NEXT]->(two_13),
+   (two_17)-[:NEXT]->(two_14),
+   (two_18)-[:NEXT]->(three_14),
+   (three_1)-[:NEXT]->(one_4),
+   (three_1)-[:NEXT]->(five_2),
+   (three_2)-[:NEXT]->(one_4),
+   (three_2)-[:NEXT]->(four_1),
+   (three_4)-[:NEXT]->(one_6),
+   (three_4)-[:NEXT]->(five_1),
+   (three_5)-[:NEXT]->(three_4),
+   (three_5)-[:NEXT]->(four_7),
+   (three_5)-[:NEXT]->(eight_1),
+   (three_6)-[:NEXT]->(three_5),
+   (three_7)-[:NEXT]->(four_2),
+   (three_8)-[:NEXT]->(four_3),
+   (three_8)-[:NEXT]->(four_4),
+   (three_8)-[:NEXT]->(one_5),
+   (three_8)-[:NEXT]->(three_1),
+   (three_8)-[:NEXT]->(eight_3),
+   (three_8)-[:NEXT]->(eight_5),
+   (three_8)-[:NEXT]->(thirteen_6),
+   (three_9)-[:NEXT]->(one_5),
+   (three_9)-[:NEXT]->(five_10),
+   (three_10)-[:NEXT]->(five_1),
+   (three_10)-[:NEXT]->(night_4),
+   (three_11)-[:NEXT]->(four_6),
+   (three_11)-[:NEXT]->(six_10),
+   (three_11)-[:NEXT]->(seven_6),
+   (three_12)-[:NEXT]->(four_5),
+   (three_12)-[:NEXT]->(six_9),
+   (three_12)-[:NEXT]->(seven_5),
+   (three_13)-[:NEXT]->(two_7),
+   (three_13)-[:NEXT]->(two_8),
+   (three_13)-[:NEXT]->(two_10),
+   (three_13)-[:NEXT]->(two_12),
+   (three_13)-[:NEXT]->(four_7),
+   (three_13)-[:NEXT]->(five_5),
+   (three_14)-[:NEXT]->(three_15),
+   (three_14)-[:NEXT]->(two_7),
+   (three_14)-[:NEXT]->(two_8),
+   (three_14)-[:NEXT]->(three_6),
+   (three_14)-[:NEXT]->(four_8),
+   (three_14)-[:NEXT]->(night_4),
+   (three_15)-[:NEXT]->(five_13),
+   (four_1)-[:NEXT]->(five_3),
+   (four_2)-[:NEXT]->(five_6),
+   (four_3)-[:NEXT]->(four_6),
+   (four_3)-[:NEXT]->(five_8),
+   (four_4)-[:NEXT]->(five_9),
+   (four_5)-[:NEXT]->(five_11),
+   (four_6)-[:NEXT]->(five_12),
+   (four_7)-[:NEXT]->(thirteen_4),
+   (four_8)-[:NEXT]->(five_13),
+   (five_1)-[:NEXT]->(six_2),
+   (five_1)-[:NEXT]->(eight_1),
+   (five_1)-[:NEXT]->(twelve_1),
+   (five_2)-[:NEXT]->(six_4),
+   (five_2)-[:NEXT]->(twelve_1),
+   (five_3)-[:NEXT]->(five_2),
+   (five_3)-[:NEXT]->(six_4),
+   (five_3)-[:NEXT]->(twelve_1),
+   (five_4)-[:NEXT]->(five_2),
+   (five_4)-[:NEXT]->(six_4),
+   (five_5)-[:NEXT]->(six_1),
+   (five_5)-[:NEXT]->(seven_2),
+   (five_5)-[:NEXT]->(eight_5),
+   (five_5)-[:NEXT]->(twelve_1),
+   (five_6)-[:NEXT]->(five_7),
+   (five_6)-[:NEXT]->(six_5),
+   (five_7)-[:NEXT]->(six_6),
+   (five_8)-[:NEXT]->(six_7),
+   (five_9)-[:NEXT]->(five_10),
+   (five_9)-[:NEXT]->(five_2),
+   (five_9)-[:NEXT]->(five_3),
+   (five_9)-[:NEXT]->(six_8),
+   (five_9)-[:NEXT]->(thirteen_6),
+   (five_10)-[:NEXT]->(five_2),
+   (five_10)-[:NEXT]->(five_3),
+   (five_10)-[:NEXT]->(thirteen_6),
+   (five_10)-[:NEXT]->(six_8),
+   (five_11)-[:NEXT]->(six_9),
+   (five_12)-[:NEXT]->(six_10),
+   (five_13)-[:NEXT]->(six_11),
+   (five_13)-[:NEXT]->(six_12),
+   (six_1)-[:NEXT]->(eight_5),
+   (six_1)-[:NEXT]->(fourteen_1),
+   (six_2)-[:NEXT]->(eight_2),
+   (six_4)-[:NEXT]->(seven_1),
+   (six_4)-[:NEXT]->(seven_2),
+   (six_6)-[:NEXT]->(seven_3),
+   (six_7)-[:NEXT]->(eight_8),
+   (six_8)-[:NEXT]->(seven_4),
+   (six_9)-[:NEXT]->(seven_5),
+   (six_9)-[:NEXT]->(eight_1),
+   (six_9)-[:NEXT]->(eight_2),
+   (six_9)-[:NEXT]->(eight_3),
+   (six_9)-[:NEXT]->(eight_4),
+   (six_9)-[:NEXT]->(eight_5),
+   (six_9)-[:NEXT]->(eight_6),
+   (six_9)-[:NEXT]->(eight_7),
+   (six_10)-[:NEXT]->(five_8),
+   (six_10)-[:NEXT]->(seven_6),
+   (seven_1)-[:NEXT]->(four_5),
+   (seven_1)-[:NEXT]->(eight_3),
+   (seven_2)-[:NEXT]->(eight_4),
+   (seven_3)-[:NEXT]->(night_5),
+   (seven_3)-[:NEXT]->(night_6),
+   (seven_3)-[:NEXT]->(ten_6),
+   (seven_4)-[:NEXT]->(eight_3),
+   (seven_4)-[:NEXT]->(eight_5),
+   (seven_4)-[:NEXT]->(eight_8),
+   (seven_5)-[:NEXT]->(eight_9),
+   (seven_6)-[:NEXT]->(eight_10),
+   (eight_1)-[:NEXT]->(eight_2),
+   (eight_1)-[:NEXT]->(eight_6),
+   (eight_1)-[:NEXT]->(night_1),
+   (eight_1)-[:NEXT]->(night_4),
+   (eight_2)-[:NEXT]->(night_1),
+   (eight_2)-[:NEXT]->(night_4),
+   (eight_3)-[:NEXT]->(four_3),
+   (eight_3)-[:NEXT]->(night_1),
+   (eight_3)-[:NEXT]->(night_2),
+   (eight_3)-[:NEXT]->(night_4),
+   (eight_4)-[:NEXT]->(eight_3),
+   (eight_4)-[:NEXT]->(eight_5),
+   (eight_4)-[:NEXT]->(four_3),
+   (eight_4)-[:NEXT]->(night_4),
+   (eight_5)-[:NEXT]->(four_3),
+   (eight_5)-[:NEXT]->(night_4),
+   (eight_5)-[:NEXT]->(night_3),
+   (eight_6)-[:NEXT]->(night_4),
+   (eight_6)-[:NEXT]->(night_5),
+   (eight_6)-[:NEXT]->(night_6),
+   (eight_7)-[:NEXT]->(night_6),
+   (eight_7)-[:NEXT]->(eight_2),
+   (eight_8)-[:NEXT]->(night_7),
+   (eight_9)-[:NEXT]->(seven_6),
+   (eight_9)-[:NEXT]->(night_2),
+   (eight_10)-[:NEXT]->(night_8),
+   (night_1)-[:NEXT]->(ten_1),
+   (night_1)-[:NEXT]->(ten_4),
+   (night_2)-[:NEXT]->(ten_2),
+   (night_3)-[:NEXT]->(eleven_3),
+   (night_4)-[:NEXT]->(ten_3),
+   (night_5)-[:NEXT]->(ten_5),
+   (night_6)-[:NEXT]->(ten_1),
+   (night_6)-[:NEXT]->(ten_4),
+   (night_7)-[:NEXT]->(ten_7),
+   (night_8)-[:NEXT]->(eleven_8),
+   (ten_1)-[:NEXT]->(eleven_1),
+   (ten_2)-[:NEXT]->(eleven_2),
+   (ten_2)-[:NEXT]->(eleven_7),
+   (ten_3)-[:NEXT]->(eleven_6),
+   (ten_4)-[:NEXT]->(ten_5),
+   (ten_4)-[:NEXT]->(thirteen_4),
+   (ten_5)-[:NEXT]->(three_4),
+   (ten_6)-[:NEXT]->(eleven_4),
+   (ten_6)-[:NEXT]->(six_5),
+   (ten_7)-[:NEXT]->(eleven_5),
+   (eleven_1)-[:NEXT]->(twelve_1),
+   (eleven_1)-[:NEXT]->(twelve_3),
+   (eleven_1)-[:NEXT]->(thirteen_4),
+   (eleven_1)-[:NEXT]->(thirteen_5),
+   (eleven_2)-[:NEXT]->(twelve_1),
+   (eleven_3)-[:NEXT]->(twelve_1),
+   (eleven_3)-[:NEXT]->(twelve_3),
+   (eleven_3)-[:NEXT]->(thirteen_2),
+   (eleven_3)-[:NEXT]->(thirteen_3),
+   (eleven_3)-[:NEXT]->(thirteen_5),
+   (eleven_4)-[:NEXT]->(six_12),
+   (eleven_4)-[:NEXT]->(night_2),
+   (eleven_4)-[:NEXT]->(night_3),
+   (eleven_4)-[:NEXT]->(ten_1),
+   (eleven_5)-[:NEXT]->(twelve_1),
+   (eleven_5)-[:NEXT]->(twelve_4),
+   (eleven_5)-[:NEXT]->(thirteen_6),
+   (eleven_6)-[:NEXT]->(six_12),
+   (eleven_6)-[:NEXT]->(thirteen_4),
+   (eleven_6)-[:NEXT]->(ten_5),
+   (eleven_6)-[:NEXT]->(ten_4),
+   (eleven_6)-[:NEXT]->(ten_1),
+   (eleven_6)-[:NEXT]->(twelve_2),
+   (twelve_1)-[:NEXT]->(thirteen_1),
+   (twelve_1)-[:NEXT]->(thirteen_5),
+   (twelve_2)-[:NEXT]->(eleven_1),
+   (twelve_4)-[:NEXT]->(twelve_3),
+   (thirteen_3)-[:NEXT]->(fourteen_1),
+
